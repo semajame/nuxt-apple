@@ -31,6 +31,7 @@ export default defineNuxtConfig({
 
   image: {
     format: ["webp"],
+    inject: true,
   },
 
   app: {
@@ -40,6 +41,14 @@ export default defineNuxtConfig({
         {
           name: "description",
           content: "Apple home page ui clone",
+        },
+      ],
+
+      link: [
+        {
+          rel: "icon",
+          type: "image/jpg",
+          href: "/img/apple.jpg",
         },
       ],
 
