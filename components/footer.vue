@@ -141,7 +141,7 @@
         </p>
 
         <div>
-          <ul class="md:flex md:gap-2 text-xs text-gray-600">
+          <ul class="md:flex md:gap-2 text-xs text-gray-600 flex gap-3">
             <li>
               <NuxtLink to="/" class="hover:underline">
                 Privacy Policy</NuxtLink

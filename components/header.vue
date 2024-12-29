@@ -31,10 +31,18 @@
       <div class="flex gap-5 items-center">
         <div class="flex gap-3 items-center">
           <NuxtLink to="/" class="px-2">
-            <Icon name="uil:search" style="color: black" alt="Search Icon"
+            <Icon
+              name="uil:search"
+              style="color: black"
+              alt="Search Icon"
+              aria-label="Search Icon"
           /></NuxtLink>
           <NuxtLink to="/" class="px-2">
-            <Icon name="uil:cart" style="color: black" alt="Cart Icon"
+            <Icon
+              name="uil:cart"
+              style="color: black"
+              alt="Cart Icon"
+              aria-label="Cart Icon"
           /></NuxtLink>
         </div>
         <button

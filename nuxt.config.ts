@@ -31,19 +31,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Apple",
+      title: "Apple Ui",
       meta: [
         {
           name: "description",
           content: "Apple home page ui clone",
-        },
-      ],
-
-      link: [
-        {
-          rel: "icon",
-          type: "image/png",
-          href: "/img/apple-logo.png",
         },
       ],
 
