@@ -66,13 +66,13 @@
             <div class="flex gap-4 justify-center">
               <NuxtLink
                 to="/"
-                class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+                class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
               >
                 Learn more
               </NuxtLink>
               <NuxtLink
                 to="/"
-                class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+                class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
               >
                 Buy
               </NuxtLink>
@@ -113,13 +113,13 @@
             <div class="flex gap-4 justify-center">
               <NuxtLink
                 to="/"
-                class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+                class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
               >
                 Learn more
               </NuxtLink>
               <NuxtLink
                 to="/"
-                class="bg-transparent text-white border-white border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white hover:border-sky-600"
+                class="bg-transparent text-white text-md border-white border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white hover:border-sky-600"
               >
                 Buy
               </NuxtLink>
@@ -145,13 +145,13 @@
           <div class="flex gap-4">
             <NuxtLink
               to="/"
-              class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+              class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
             >
               Learn more
             </NuxtLink>
             <NuxtLink
               to="/"
-              class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+              class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
             >
               Buy
             </NuxtLink>
@@ -168,13 +168,13 @@
             <div class="flex gap-4 justify-center">
               <NuxtLink
                 to="/"
-                class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+                class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
               >
                 Learn more
               </NuxtLink>
               <NuxtLink
                 to="/"
-                class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+                class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
               >
                 Buy
               </NuxtLink>
@@ -199,13 +199,13 @@
           <div class="flex gap-4">
             <NuxtLink
               to="/"
-              class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+              class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
             >
               Learn more
             </NuxtLink>
             <NuxtLink
               to="/"
-              class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+              class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
             >
               Buy
             </NuxtLink>
@@ -223,13 +223,13 @@
           <div class="flex gap-4">
             <NuxtLink
               to="/"
-              class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+              class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
             >
               Learn more
             </NuxtLink>
             <NuxtLink
               to="/"
-              class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+              class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
             >
               Buy
             </NuxtLink>
@@ -254,7 +254,7 @@
           <div class="flex gap-4">
             <NuxtLink
               to="/"
-              class="bg-sky-600 text-white px-5 py-2 rounded-full text-sm"
+              class="bg-sky-600 text-white px-5 py-2 rounded-full text-md"
             >
               Get your estimate
             </NuxtLink>
@@ -279,13 +279,13 @@
           <div class="flex gap-4">
             <NuxtLink
               to="/"
-              class="bg-sky-600 text-white px-5 py-1 rounded-full text-sm"
+              class="bg-sky-600 text-white px-5 py-1 rounded-full text-md"
             >
               Learn more
             </NuxtLink>
             <NuxtLink
               to="/"
-              class="bg-transparent text-sky-600 border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
+              class="bg-transparent text-sky-600 text-md border-sky-600 border py-1 px-5 rounded-full hover:bg-sky-600 hover:text-white"
             >
               Apply now
             </NuxtLink>

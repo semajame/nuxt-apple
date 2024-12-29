@@ -4,7 +4,7 @@
       <div
         v-for="(item, index) in carouselItems"
         :key="index"
-        class="carousel-item max-w-[800px] relative"
+        class="carousel-item md:max-w-[800px] max-w-[400px] relative"
         :id="`item${index + 1}`"
       >
         <NuxtImg
@@ -14,14 +14,16 @@
           densities="x1"
           format="webp"
         />
-        <div class="absolute bottom-8 left-10 flex gap-4 items-center">
+        <div
+          class="absolute md:bottom-8 bottom-4 md:left-10 left-5 flex gap-4 items-center"
+        >
           <NuxtLink
             to="/"
             class="bg-white text-black py-2 px-4 rounded-full text-sm md:text-md"
             >Stream Now</NuxtLink
           >
-          <p class="text-white md:text-lg text-md">
-            <span class="font-bold md:text-lg text-md">{{ item.genre }}</span
+          <p class="text-white md:text-md text-sm">
+            <span class="font-bold md:text-md text-sm">{{ item.genre }}</span
             >- {{ item.parag }}
           </p>
         </div>
@@ -91,7 +93,7 @@ const carouselItems = ref([
   {
     image: "/img/severance.jpg",
     genre: "Thriller ",
-    parag: "Cath up now. New season Jan. 17",
+    parag: "Cath up now. New season.",
     alt: "Severance Image",
     label: "Item 2",
   },
@@ -105,7 +107,7 @@ const carouselItems = ref([
   {
     image: "/img/fly.jpg",
     genre: "Comedy ",
-    parag: "Will they make history...or fake it?",
+    parag: "Will they make history?",
     alt: "Fly me to the moon Image",
     label: "Item 4",
   },
@@ -168,7 +170,7 @@ const animateCarousel = () => {
   translateX.value -= speed;
 
   // Reset the position when the first set of items is completely out of view
-  if (Math.abs(translateX.value) >= carouselItems.value.length * 800) {
+  if (Math.abs(translateX.value) >= carouselItems.value.length * 600) {
     translateX.value = 0;
   }
 
