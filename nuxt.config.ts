@@ -29,6 +29,10 @@ export default defineNuxtConfig({
     },
   },
 
+  image: {
+    format: ["webp"],
+  },
+
   app: {
     head: {
       title: "Apple Ui",

@@ -99,7 +99,13 @@
         :key="categoryName"
         class="collapse collapse-arrow bg-transparent text-black border-b-black"
       >
-        <input type="radio" name="my-accordion-2" class="border-b-black" />
+        <input
+          type="radio"
+          name="my-accordion-2"
+          class="border-b-black"
+          aria-label="Arrow Button"
+          id="input"
+        />
         <div class="collapse-title text-sm font-medium">
           {{ formatCategoryName(categoryName) }}
         </div>

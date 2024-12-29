@@ -20,7 +20,9 @@
       <div
         class="flex justify-center items-center flex-col gap-3 pt-10 relative z-20"
       >
-        <h1 class="font-semibold md:text-6xl text-4xl text-center max-w-xl">
+        <h1
+          class="font-semibold md:text-6xl text-4xl text-center max-w-xl py-2"
+        >
           There's still time to work your magic.
         </h1>
         <p class="text-gray-800 md:text-2xl text-xl">

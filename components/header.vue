@@ -9,7 +9,7 @@
     <div
       class="px-4 py-2 flex md:justify-center items-center justify-between gap-10"
     >
-      <NuxtLink class="text-xl font-bold" to="/">
+      <NuxtLink class="text-xl font-bold" to="/" aria-label="Apple Logo ">
         <Icon name="uil:apple" style="color: black" alt="Apple Logo" />
       </NuxtLink>
 
@@ -30,19 +30,11 @@
       <!-- Mobile Menu Button -->
       <div class="flex gap-5 items-center">
         <div class="flex gap-3 items-center">
-          <NuxtLink to="/" class="px-2">
-            <Icon
-              name="uil:search"
-              style="color: black"
-              alt="Search Icon"
-              aria-label="Search Icon"
+          <NuxtLink to="/" class="px-2" aria-label="Search Icon">
+            <Icon name="uil:search" style="color: black" alt="Search Icon"
           /></NuxtLink>
-          <NuxtLink to="/" class="px-2">
-            <Icon
-              name="uil:cart"
-              style="color: black"
-              alt="Cart Icon"
-              aria-label="Cart Icon"
+          <NuxtLink to="/" class="px-2" aria-label="Cart Icon">
+            <Icon name="uil:cart" style="color: black" alt="Cart Icon"
           /></NuxtLink>
         </div>
         <button
