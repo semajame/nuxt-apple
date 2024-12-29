@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+  }
 
+  h1 {
+    font-family: "Open-sans", sans-serif;
+    letter-spacing: -0.2rem;
+    color: black;
+  }
+
+  h2 {
+    letter-spacing: -0.1px;
+  }
+
+  p {
+    letter-spacing: -1px;
+  }
 }
