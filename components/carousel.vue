@@ -11,7 +11,7 @@
           :src="item.image"
           :alt="item.alt"
           class="w-full h-auto"
-          sizes="100vw sm:50vw md:400px"
+          sizes="100vw sm:50vw md:400px xs:50vw"
           densities="x1 x2"
           format="webp"
         />
@@ -89,7 +89,7 @@ const carouselItems = ref([
     genre: "Crime ",
     parag: "Pressume nothing.",
     alt: "Pressumed Innocent Image",
-    label:"Item 1"
+    label: "Item 1",
   },
   {
     image:
@@ -97,7 +97,7 @@ const carouselItems = ref([
     genre: "Thriller ",
     parag: "Cath up now. New season Jan. 17",
     alt: "Severance Image",
-    label:"Item 2"
+    label: "Item 2",
   },
   {
     image:
@@ -105,7 +105,7 @@ const carouselItems = ref([
     genre: "Comedy ",
     parag: "Breakdown. Breakthrough",
     alt: "Shrinking Image",
-    label:"Item 3"
+    label: "Item 3",
   },
   {
     image:
@@ -113,7 +113,7 @@ const carouselItems = ref([
     genre: "Comedy ",
     parag: "Will they make history...or fake it?",
     alt: "Fly me to the moon Image",
-    label:"Item 4"
+    label: "Item 4",
   },
   {
     image:
@@ -121,7 +121,7 @@ const carouselItems = ref([
     genre: "Thriller ",
     parag: "Emmy Award winner.",
     alt: "Slow horses Image",
-    label:"Item 5"
+    label: "Item 5",
   },
   {
     image:
@@ -129,7 +129,7 @@ const carouselItems = ref([
     genre: "Comedy ",
     parag: "Kindess makes a comeback",
     alt: "Ted Lasso Image",
-    label:"Item 6"
+    label: "Item 6",
   },
 ]);
 
