@@ -262,7 +262,7 @@
         <div class="flex justify-center items-center flex-col gap-3 pt-10">
           <div>
             <NuxtImg
-              src="/img/card-logo.jpg"
+              src="/img/card-logo.png"
               alt="Card Logo"
               densities="x1"
               format="webp"
