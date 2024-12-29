@@ -43,7 +43,7 @@
               media="(min-width: 768px)"
             />
             <NuxtImg
-              src=" /img/bronze-iphone-stand.jpg"
+              src="/img/bronze-iphone-stand.jpg"
               alt="mobile iphone img"
               densities="x1"
               format="webp"
@@ -90,7 +90,7 @@
               media="(min-width: 768px)"
             />
             <NuxtImg
-              src=" /img/blue-iphone-stand.jpg"
+              src="/img/blue-iphone-stand.jpg"
               alt="mobile iphone image"
               format="webp"
               densities="x1"
@@ -188,7 +188,12 @@
       >
         <div class="flex justify-center items-center flex-col gap-3 pt-10">
           <div>
-            <img src="/img/watch-logo.png" alt="Apple Watch Series Logo" />
+            <NuxtImg
+              src="/img/watch-logo.png"
+              alt="Apple Watch Series Logo"
+              densities="x1"
+              format="webp"
+            />
           </div>
           <p class="text-xl text-black">Thinstant classic.</p>
           <div class="flex gap-4">
