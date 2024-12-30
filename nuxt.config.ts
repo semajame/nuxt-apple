@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   image: {
     format: ["webp"],
     inject: true,
-    provider: "static",
+    provider: "vercel",
   },
 
   app: {
